@@ -33,3 +33,4 @@ torch>=1.13.1
 tqdm
 uvicorn==0.22.0
 wheel
+starlette>=0.40.0 # not directly required, pinned by Snyk to avoid a vulnerability
