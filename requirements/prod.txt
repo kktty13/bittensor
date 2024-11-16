@@ -1,10 +1,10 @@
 aiohttp==3.9.0b0
-ansible==6.7.0
+ansible==7.0.0
 ansible_vault==2.1.0
 backoff
 black==23.7.0
 colorama==0.4.6
-cryptography==42.0.0
+cryptography==43.0.1
 ddt==1.6.0
 fuzzywuzzy>=0.18.0
 fastapi==0.99.1
@@ -33,3 +33,4 @@ torch>=1.13.1
 tqdm
 uvicorn==0.22.0
 wheel
+ansible-core>=2.18.0 # not directly required, pinned by Snyk to avoid a vulnerability
